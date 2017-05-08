@@ -51,7 +51,7 @@
 		A605E4931EC0E3CE00F236EC /* TDDPracticeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPracticeSwiftUITests.swift; sourceTree = "<group>"; };
 		A605E4951EC0E3CE00F236EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A605E4A31EC0E57D00F236EC /* CheckForPrimeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckForPrimeTests.swift; path = ../CheckForPrimeTests.swift; sourceTree = "<group>"; };
-		A605E4A71EC0E68200F236EC /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A605E4A71EC0E68200F236EC /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ../Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,6 @@
 		A605E4671EC0E3CE00F236EC = {
 			isa = PBXGroup;
 			children = (
-				A605E4A71EC0E68200F236EC /* Util.swift */,
 				A605E4721EC0E3CE00F236EC /* TDDPracticeSwift */,
 				A605E4871EC0E3CE00F236EC /* TDDPracticeSwiftTests */,
 				A605E4921EC0E3CE00F236EC /* TDDPracticeSwiftUITests */,
@@ -105,6 +104,7 @@
 			children = (
 				A605E4731EC0E3CE00F236EC /* AppDelegate.swift */,
 				A605E4751EC0E3CE00F236EC /* ViewController.swift */,
+				A605E4A71EC0E68200F236EC /* Util.swift */,
 				A605E4771EC0E3CE00F236EC /* Main.storyboard */,
 				A605E47A1EC0E3CE00F236EC /* Assets.xcassets */,
 				A605E47C1EC0E3CE00F236EC /* LaunchScreen.storyboard */,

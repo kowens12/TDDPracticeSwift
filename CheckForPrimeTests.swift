@@ -33,4 +33,22 @@ class CheckForPrimeTests: XCTestCase {
         
         XCTAssertTrue(Util().isPrime(number: number), "11 is a prime number");
     }
+    
+    func testThirtyOneIsPrime() {
+        let number:Int = 31;
+        
+        XCTAssertTrue(Util().isPrime(number: number), "31 is a prime number");
+    }
+    
+    func testFiftyIsPrime() {
+        let number:Int = 50;
+        
+        XCTAssertFalse(Util().isPrime(number: number), "50 is not a prime number");
+    }
+    
+    func testMinusOneIsPrime() {
+        let number:Int = -1;
+        
+        XCTAssertFalse(Util().isPrime(number: number), "-1 is not a prime number");
+    }
 }
